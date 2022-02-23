@@ -1,0 +1,17 @@
+.nav{
+    background-color:#5d5d5d;
+    display:flex;
+    justify-content:space-between;
+}
+img{
+       width:70%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#40a13d !important;
+    /*عشان الغي ال default color بتاع ال bootstrap*/
+    margin-right:20px;
+    margin-left:20px;
+    font-size:17px;
+    font-weight: bold;
+    text-transform: capitalize;
+}

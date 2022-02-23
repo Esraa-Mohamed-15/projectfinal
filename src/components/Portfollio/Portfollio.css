@@ -1,0 +1,38 @@
+
+
+.portfollio  div{
+  margin-top: 10px;
+  float: left;
+  width: 25%;
+/*ف حال ان في فورقات بين الصور وال margin and padding مش شغالين*/
+  position: relative;
+}
+.portfollio  div img{
+  width: 100%;
+}
+ .overlay-{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  /*عشن فوق عملاه بصفر ف لازم اعدل هنا*/
+  margin: auto;
+  opacity: 0;
+}
+.overlay- a{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 40%;
+  left: 50%;
+ cursor: pointer;
+ color: white;
+ font-size: 17px;
+ text-decoration: none;
+}
+ .portfollio div:hover .overlay- {
+   opacity: 1;
+   visibility: visible;
+ }

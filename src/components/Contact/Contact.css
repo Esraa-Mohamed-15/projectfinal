@@ -1,0 +1,46 @@
+.contant{
+    text-align: center;
+}
+
+ .contact-item h2{
+   text-transform: uppercase;
+   margin-bottom: 50px;
+   font-size: 30px;
+   text-align: center;
+   color:#40a13d;
+   margin-top: 30px;
+ }
+
+ .form-item{
+   width: 80%;
+   margin: auto;
+ }
+ /*هيوسطن الفورم واي تعديل هيبقي ف مساحه ال 80%*/
+ .form-item input{
+   box-sizing: border-box;
+   outline: 0;
+   /*عشان الخط وقت الكنابه*/
+ }
+ .form-item .input input,.form-item  .sub,.form-item textarea{
+    background: #f2f2f2;
+    border: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+    outline: 0;
+    font-size: 14px;
+ }
+ .form-item .input input{
+   width: 49%;
+ }
+ .form-item  .sub , .form-item textarea{
+   width: 100%;
+ }
+
+ .form-item input[type=submit]{
+   width: 50%;
+   border: 0;
+   padding: 15px;
+   text-transform: capitalize;
+   font-size: 17px;
+   color: #424242;
+ }

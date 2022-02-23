@@ -1,0 +1,51 @@
+/*footer*/
+.footer{
+    margin-top: 3%;
+    display: flex;
+    background: #6c757d;
+    max-width: 100%;
+  }
+  /*.information ,.account,.subscripe{
+  }*/
+  .information h2 , .account h2 , .subscripe h2{
+  color: black;
+  font-size: 20px;
+  }
+  .information h2 , .account h2 , .subscripe h2 ,.subscripe .icon {
+    position: relative;
+    left: 40px;
+  }
+  .information ul , .account ul{
+  color: black;
+  
+  }
+  .information ul li , .account ul li {
+    margin: 15px 0;
+    text-transform: capitalize;
+  }
+  .footer ul {
+   list-style: none;
+  }
+
+  .footer h2 {
+    margin-top: 40px;
+    text-transform: capitalize;
+  }
+  .title{
+    flex: 2;
+    padding: 30px ;
+  }
+  .title .img{
+      width: 40%;
+  }
+  .title p{
+    color:black;
+    line-height: 1.5;
+  }
+
+
+  .subscripe .icon i{
+    color: black;
+    margin-right: 10%;
+    margin-top: 30px;
+  }
